@@ -1,0 +1,449 @@
+:root {
+    --dark: #2f303a;
+    --grey: #757575;
+    --FFF: #FFF;
+    --blue: #2196F3;
+    --black: #212121;
+    --button: #F5F4FA;
+    --line: #ECECEC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--FFF);
+    border: none;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a:focus {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--blue);
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* -------------- html */
+
+/*--------------- header */
+
+.header-flex {
+    display: flex;
+    height: 80px;
+    padding: 0 15px;
+}
+
+.cancel-logo {
+    float: left;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192em;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.first-word {
+    color: #2196F3;
+}
+
+.second-word {
+    color: #000000;
+}
+
+.first-position {
+    display: flex;
+    padding-top: 32px;
+    margin: 0;
+    gap: 46px;
+    padding-left: 93px;
+}
+
+
+.second-position {
+    display: flex;
+    gap: 50px;
+    padding-left: 384px;
+    padding-top: 16px;
+}
+
+.cancel {
+    text-decoration: none;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142em;
+    letter-spacing: 0.02em;
+}
+
+.mail-tel {
+    color: var(--grey);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142em;
+    letter-spacing: 0.02em;
+}
+
+/* ---------------------- end header */
+
+
+/* ---------------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
+
+.navigation-section {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--dark);
+
+}
+
+
+.name-position {
+    text-align: center;
+    padding-top: 106px;
+    padding-left: 452px;
+    padding-right: 452px;
+}
+
+.name-page {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363em;
+    letter-spacing: 0.06em;
+    color: var(--FFF);
+    text-transform: uppercase;
+    
+}
+
+
+.button-bg {
+    margin-left: 700px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--blue);
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-1 {
+    color: var(--FFF);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+
+}
+
+/* ---END-------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
+
+
+
+
+/* ---------------------- lerem ------------*/
+
+.article-section {
+    width: 1600px;
+    height: 769px;
+}
+
+.all-lorem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 101px;
+    padding-left: 215px;
+    gap: 30px;
+    margin: 0;
+}
+
+
+
+.lorem-font {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142em;
+    letter-spacing: 0.03em;
+}
+
+.lorem-text {
+    width: 270px;
+    height: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714em;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+
+
+/* ------END-------------- lerem ---------------- */
+
+
+
+/* < -- Czym się zajmujemy --> */
+
+
+
+.section-position {
+    display: flex;
+    padding-left: 185px;
+    margin: 0;
+}
+
+.margin {
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+.font-h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+}
+
+/*----------END- Czym się zajmujemy --> */
+.image-section {
+    width: 1600px;
+    background-color: var(--button);
+}
+
+.position-team {
+    display: flex;
+    margin: 0;
+    padding-left: 185px;
+    padding-top: 50px;
+}
+
+
+.description-employees {
+    font-size: 36px;
+    line-height: 1.166em;
+    text-align: center;
+    letter-spacing: 0.03em;
+   
+}
+
+.box-human {
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 30px;
+
+}
+
+.name-human {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+
+}
+
+.description-human {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187em;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+/* < !-- Nasz zespół --> */
+
+
+/*------------- footer  ------------------*/
+
+
+.footer-section {
+    width: 1600px;
+    height: 252px;
+    background-color: var(--dark);
+    
+}
+
+.padding-footer {
+    padding-top: 60px;
+}
+
+.cancel-logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192em;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding-left: 215px;
+}
+
+.position-adres {
+    margin: 0;
+    padding: 0;
+    padding-left: 215px;
+    padding-top: 11px;
+
+}
+
+.margin-footer {
+    padding-top: 9px;
+}
+
+.adres {
+    text-decoration: none;
+    color: var(--FFF);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.174em;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
+.third-word {
+    color: var(--FFF);
+
+}
+
+.mail-tel1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.174em;
+    letter-spacing: 0.02em;
+    color: #FFFFFF99;
+    text-decoration: none;
+    
+
+}
+
+/*-----END------- footer  ------------------*/
+
+
+/* Portfolio */
+
+.line-page {
+    margin:0;
+    width: 1600px;
+    border: 1px solid #ECECEC;
+    
+}
+
+
+
+.button-all {
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    padding: 0 15px;
+    padding-left: 305px;
+}
+
+.button-portfolio {
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+   
+    padding: 6px 22px 6px 22px;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background: #2196F3;
+    color: var(--FFF);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.style-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    padding: 50px 15px;
+
+}
+
+.li-box {
+    box-sizing: border-box;
+    background: var(--FFF);
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
+
+}
+
+.description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    padding: 20px 24px 4px 24px;
+    margin: 0;
+}
+
+.second-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875em;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+    padding-left: 24px;
+    margin: 0;
+}
+
+
+/* -------END---------Portfolio----------------- */
