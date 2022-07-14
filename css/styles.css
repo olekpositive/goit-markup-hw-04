@@ -120,10 +120,10 @@ a:hover {
 .navigation-section {
     width: 1600px;
     height: 600px;
-    background-color: var(--dark);
-
+/*     
+    background-color: #2F303A66;
+background-image: linear-gradient url("/images/background-image.jpg") */
 }
-
 
 .name-position {
     text-align: center;
