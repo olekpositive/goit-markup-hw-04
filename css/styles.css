@@ -40,13 +40,20 @@ a:hover {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+figure {
+    margin: 0;
+    padding: 0;
+    width: 270;
+    height: 220;
+}
+
 /* -------------- html */
 
 /*--------------- header */
@@ -55,6 +62,7 @@ a:hover {
     display: flex;
     height: 80px;
     padding: 0 15px;
+    justify-content: space-between;
 }
 
 .cancel-logo {
@@ -88,7 +96,6 @@ a:hover {
 .second-position {
     display: flex;
     gap: 50px;
-    padding-left: 384px;
     padding-top: 16px;
 }
 
@@ -117,22 +124,19 @@ a:hover {
 
 /* ---------------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
 
-.navigation-section {
+.navigation-div {
     width: 1600px;
     height: 600px;
-/*     
-    background-color: #2F303A66;
-background-image: linear-gradient url("/images/background-image.jpg") */
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.name-position {
-    text-align: center;
-    padding-top: 106px;
-    padding-left: 452px;
-    padding-right: 452px;
-}
-
-.name-page {
+.name-style {
+    width: 696px;
+    height: 120px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -141,19 +145,17 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     letter-spacing: 0.06em;
     color: var(--FFF);
     text-transform: uppercase;
-    
+    text-align: center;
 }
 
-
 .button-bg {
-    margin-left: 700px;
-    margin-top: 30px;
     width: 200px;
     height: 50px;
     background-color: var(--blue);
     border: 0;
     cursor: pointer;
     border-radius: 4px;
+    margin: 30px 0 0 0;
 }
 
 .button-1 {
@@ -167,9 +169,6 @@ background-image: linear-gradient url("/images/background-image.jpg") */
 
 /* ---END-------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
 
-
-
-
 /* ---------------------- lerem ------------*/
 
 .article-section {
@@ -180,15 +179,11 @@ background-image: linear-gradient url("/images/background-image.jpg") */
 .all-lorem {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 1170px;
-    height: 101px;
-    padding-left: 215px;
+    justify-content: center;
     gap: 30px;
+    padding: 0;
     margin: 0;
 }
-
-
 
 .lorem-font {
     font-style: normal;
@@ -196,6 +191,7 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     font-size: 14px;
     line-height: 1.142em;
     letter-spacing: 0.03em;
+
 }
 
 .lorem-text {
@@ -207,6 +203,8 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     line-height: 1.714em;
     letter-spacing: 0.03em;
     color: var(--grey);
+    margin: 0;
+    padding: 10px 0 0 0;
 }
 
 
@@ -218,17 +216,16 @@ background-image: linear-gradient url("/images/background-image.jpg") */
 /* < -- Czym się zajmujemy --> */
 
 
-
 .section-position {
     display: flex;
-    padding-left: 185px;
+    align-items: center;
+    justify-content: center;
     margin: 0;
+    gap: 30px;
+    padding: 50px 0 0 0;
 }
 
-.margin {
-    margin-left: 30px;
-    padding-top: 50px;
-}
+
 
 .font-h2 {
     font-style: normal;
@@ -237,7 +234,7 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     line-height: 1.166em;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
+    padding: 94px 0 0 0;
 }
 
 /*----------END- Czym się zajmujemy --> */
@@ -248,9 +245,11 @@ background-image: linear-gradient url("/images/background-image.jpg") */
 
 .position-team {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
-    padding-left: 185px;
-    padding-top: 50px;
+    padding: 50px 0 0 0;
+    gap: 30px;
 }
 
 
@@ -259,16 +258,15 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     line-height: 1.166em;
     text-align: center;
     letter-spacing: 0.03em;
-   
 }
 
 .box-human {
+    width: 270px;
+    height: 368px;
     background: #FFFFFF;
     /* material shadow v1 */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-left: 30px;
-
 }
 
 .name-human {
@@ -278,7 +276,7 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black);
-
+    padding: 30px 0 10px 0;
 }
 
 .description-human {
@@ -289,24 +287,24 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey);
+    margin: 0;
+    padding: 0 0 30px 0;
 }
 
 /* < !-- Nasz zespół --> */
 
 
-/*------------- footer  ------------------*/
 
+/*------------- footer  ------------------*/
 
 .footer-section {
     width: 1600px;
     height: 252px;
     background-color: var(--dark);
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.padding-footer {
-    padding-top: 60px;
-}
 
 .cancel-logo1 {
     font-family: 'Raleway';
@@ -324,7 +322,6 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     padding: 0;
     padding-left: 215px;
     padding-top: 11px;
-
 }
 
 .margin-footer {
@@ -356,7 +353,7 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     letter-spacing: 0.02em;
     color: #FFFFFF99;
     text-decoration: none;
-    
+
 
 }
 
@@ -366,10 +363,10 @@ background-image: linear-gradient url("/images/background-image.jpg") */
 /* Portfolio */
 
 .line-page {
-    margin:0;
+    margin: 0;
     width: 1600px;
     border: 1px solid #ECECEC;
-    
+
 }
 
 
@@ -377,9 +374,10 @@ background-image: linear-gradient url("/images/background-image.jpg") */
 .button-all {
     margin: 0;
     display: flex;
+    justify-content: center;
     gap: 8px;
     padding: 0 15px;
-    padding-left: 305px;
+
 }
 
 .button-portfolio {
@@ -387,7 +385,6 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-   
     padding: 6px 22px 6px 22px;
 }
 
@@ -413,17 +410,12 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     gap: 30px;
     margin: 0;
     padding: 0;
-    padding: 50px 15px;
-
+    padding-top: 50px;
 }
 
 .li-box {
-    box-sizing: border-box;
     background: var(--FFF);
     border: 1px solid #EEEEEE;
-    width: 370px;
-    height: 404px;
-
 }
 
 .description {
@@ -441,7 +433,7 @@ background-image: linear-gradient url("/images/background-image.jpg") */
     line-height: 1.875em;
     letter-spacing: 0.03em;
     color: var(--grey);
-    padding-left: 24px;
+    padding: 4px 24px 20px 24px;
     margin: 0;
 }
 
