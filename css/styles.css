@@ -63,6 +63,7 @@ figure {
     height: 80px;
     padding: 0 15px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cancel-logo {
@@ -92,11 +93,22 @@ figure {
     padding-left: 93px;
 }
 
-
 .second-position {
     display: flex;
     gap: 50px;
-    padding-top: 16px;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-envelope {
+    width: 1.3330078125em;
 }
 
 .cancel {
@@ -109,7 +121,7 @@ figure {
     letter-spacing: 0.02em;
 }
 
-.mail-tel {
+.mail-tel-color {
     color: var(--grey);
     text-decoration: none;
     font-style: normal;
@@ -117,6 +129,10 @@ figure {
     font-size: 14px;
     line-height: 1, 142em;
     letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 /* ---------------------- end header */
@@ -132,6 +148,7 @@ figure {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-image: url(/images/background-image.jpg);
 }
 
 .name-style {
@@ -315,6 +332,7 @@ figure {
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-left: 215px;
+   
 }
 
 .position-adres {
@@ -353,7 +371,7 @@ figure {
     letter-spacing: 0.02em;
     color: #FFFFFF99;
     text-decoration: none;
-
+    
 
 }
 
