@@ -23,7 +23,7 @@
 <body>
     <header>
         <div class="header-flex container">
-            <nav>
+            <nav class="position-nav">
                 <a class="cancel-logo" href="index.html">
                     <p class="first-word">Web<span class="second-word">Studio</span></p>
                 </a>
@@ -47,6 +47,7 @@
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>+48 111 111 111
                         </a>
+                        
                     </li>               
             </ul>
         </div>
@@ -55,13 +56,13 @@
 <!-- EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU----- -->
 
     <main>
-        <section class="tlo">
+        <section >
             <div class="navigation-div container">
                 <h1 class="name-style">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <button class="button-bg"><span class="button-1">Zamów usługe</span></button>
             </div>
         </section>
- <!-- ------------- lerem ------------ -->
+ <!-- ------------- lorem ------------ -->
         <section class="article-section section">
             <div class="container">
                 <ul class="all-lorem ">
@@ -71,13 +72,13 @@
                         </svg>
                     </li>
                     <li class="lorem-bg-icon">
-                        <svg class="icon icon-lorem">
+                        <svg  class="icon icon-lorem">
                             <use href="./images/icons.svg#icon-clock"></use>
                         </svg>
                     </li>
                     <li class="lorem-bg-icon">
                         <svg class="icon icon-lorem">
-                            <use href="./images/icons.svg#icon-diagram"></use>
+                            <use href="./images/icons.svg#icon-diagram"></use>                           
                         </svg>
                     </li>
                     <li class="lorem-bg-icon">
@@ -146,20 +147,22 @@
                         <img src="images/imgJD1.jpg" alt="Product Designer"/>
                         <h3 class="name-human">John Doe</h3>
                         <p class="description-human">Product Designer</p>   
-                            <div class="icon-position">                   
-                                <svg class="icon icon-team" >
-                                    <use href="./images/icons.svg#icon-instagram" ></use>
-                                </svg>
-                                <svg class="icon icon-team" width="70px" height="70px">
+                            <ul class="icon-position">
+                                <li><svg class="icon icon-team" style="outline">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                    
+                                </svg></li>    
+                                <li><svg class="icon icon-team">
                                     <use href="./images/icons.svg#icon-twitter"></use>
-                                </svg>
-                                <svg class="icon icon-team" width="70px" height="70px">
+                                </svg></li>
+                                <li><svg class="icon icon-team">
                                     <use href="./images/icons.svg#icon-facebook"></use>
-                                </svg>
-                                <svg class="icon icon-team" width="70px" height="70px">
+                                </svg></li>
+                                <li><svg class="icon icon-team">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
-                            </div>
+                                </li>
+                            </ul>
                     </li>
                     <li class="box-human"><img src="images/imgJD2.jpg" alt="Frontend Developer"/>
                         <h3 class="name-human">John Doe</h3>
