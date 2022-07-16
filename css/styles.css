@@ -54,6 +54,22 @@ figure {
     height: 220;
 }
 
+.icon {
+    fill: #AFB1B8;;
+}
+
+.icon:hover {
+    fill: var(--FFF);
+}
+
+.box-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 50px 0 0 0;
+    gap: 30px;
+}
 /* -------------- html */
 
 /*--------------- header */
@@ -211,6 +227,9 @@ figure {
     margin: 0;
     
 }
+.margin-lorem {
+    padding: 0 0 94px 0;
+}
 
 .lorem-bg-icon {
     display: flex;
@@ -259,15 +278,7 @@ figure {
 /* < -- Czym się zajmujemy --> */
 
 
-.section-position {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    gap: 30px;
-    padding: 50px 0 0 0;
-    
-}
+
 
 .box-figure {
     width: 370px;
@@ -281,30 +292,16 @@ figure {
     line-height: 1.166em;
     text-align: center;
     letter-spacing: 0.03em;
-    padding: 94px 0 0 0;
 }
 
 /*----------END- Czym się zajmujemy --> */
+
+
+/*----------Nasz zespół----------- --> */
+
 .image-section {
     width: 1600px;
     background-color: var(--button);
-}
-
-.position-team {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 50px 0 0 0;
-    gap: 30px;
-}
-
-
-.description-employees {
-    font-size: 36px;
-    line-height: 1.166em;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .box-human {
@@ -344,25 +341,51 @@ figure {
     justify-content: center;
     gap: 10px;
     padding: 0;
-
-}
-.ikon:hover {
-    fill: var(--black); 
 }
 
 .icon-team {
     width: 20px;
     height: 20px;
     cursor: pointer;
+    fill: #afb1b8;
 }
-.icon-team:hover {
-    color: var(--blue);
+/* < !-------------END-- Nasz zespół --> */
+
+/* < !-------------Nasi klienci --> */
+
+.box-klients {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    cursor: pointer;
 }
 
-/* < !-- Nasz zespół --> */
+.box-klients:hover {
+    background: var(--FFF);
+    fill: #2196F3;
+    
+}
 
+.icon-klients {
+    width: 106px;
+    height: 60px;
+}
 
+/* < !-----END-------Nasi klienci --> */
 
+ellipse {
+        
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--FFF);
+}
+
+ellipse:hover {
+    fill: var(--blue) ;
+}
 /*------------- footer  ------------------*/
 
 .footer-section {
@@ -462,6 +485,7 @@ figure {
     background: #2196F3;
     color: var(--FFF);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    outline: none;
 }
 
 .style-button {
