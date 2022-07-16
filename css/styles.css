@@ -107,6 +107,10 @@ figure {
     fill: currentColor;
 }
 
+.icon-lorem {
+    width: 70px;
+    height: 70px;
+}
 .icon-envelope {
     width: 1.3330078125em;
 }
@@ -143,14 +147,17 @@ figure {
 .navigation-div {
     width: 1600px;
     height: 600px;
-    background-color: var(--dark);
+    background: rgba(47, 48, 58, 0.4);
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    background-image: url(/images/background-image.jpg);
+    justify-content: center;     
 }
 
+.tlo {
+    background-image: url(/images/background-image.jpg);
+    background-size: cover;
+}
 .name-style {
     width: 696px;
     height: 120px;
@@ -190,8 +197,9 @@ figure {
 
 .article-section {
     width: 1600px;
-    height: 769px;
+    height: 919px;
 }
+
 
 .all-lorem {
     display: flex;
@@ -200,6 +208,18 @@ figure {
     gap: 30px;
     padding: 0;
     margin: 0;
+    
+}
+
+.lorem-bg-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    
 }
 
 .lorem-font {
@@ -208,7 +228,7 @@ figure {
     font-size: 14px;
     line-height: 1.142em;
     letter-spacing: 0.03em;
-
+    padding-top: 30px;
 }
 
 .lorem-text {
@@ -240,9 +260,13 @@ figure {
     margin: 0;
     gap: 30px;
     padding: 50px 0 0 0;
+    
 }
 
-
+.box-figure {
+    width: 370px;
+    height: 294px;
+}
 
 .font-h2 {
     font-style: normal;
@@ -279,7 +303,7 @@ figure {
 
 .box-human {
     width: 270px;
-    height: 368px;
+    height: 428px;
     background: #FFFFFF;
     /* material shadow v1 */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -306,6 +330,19 @@ figure {
     color: var(--grey);
     margin: 0;
     padding: 0 0 30px 0;
+}
+
+.icon-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.icon-team {
+    width: 20px;
+    height: 20px;
 }
 
 /* < !-- Nasz zespół --> */
