@@ -55,11 +55,7 @@ figure {
 }
 
 .icon {
-    fill: #AFB1B8;;
-}
-
-.icon:hover {
-    fill: var(--FFF);
+    fill: #AFB1B8;
 }
 
 .box-position {
@@ -83,7 +79,6 @@ figure {
 }
 
 .cancel-logo {
-    float: left;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -343,12 +338,27 @@ figure {
     padding: 0;
 }
 
+.contacts-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-icon:hover, .icon-team:hover {
+    background: #2196F3;
+    fill: var(--FFF);
+}
 .icon-team {
     width: 20px;
     height: 20px;
     cursor: pointer;
     fill: #afb1b8;
 }
+
 /* < !-------------END-- Nasz zespół --> */
 
 /* < !-------------Nasi klienci --> */
@@ -375,17 +385,6 @@ figure {
 
 /* < !-----END-------Nasi klienci --> */
 
-ellipse {
-        
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    fill: var(--FFF);
-}
-
-ellipse:hover {
-    fill: var(--blue) ;
-}
 /*------------- footer  ------------------*/
 
 .footer-section {
@@ -396,27 +395,16 @@ ellipse:hover {
     padding-bottom: 60px;
 }
 
-
-.cancel-logo1 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192em;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    padding-left: 215px;
-   
-}
-
 .position-adres {
-    margin: 0;
-    padding: 0;
-    padding-left: 215px;
-    padding-top: 11px;
+    display: table-row;
+    
 }
 
-.margin-footer {
+.padding-footer1 {
+    padding-top: 20px;
+}
+
+.padding-footer {
     padding-top: 9px;
 }
 
@@ -427,14 +415,12 @@ ellipse:hover {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.174em;
-    /* or 171% */
     letter-spacing: 0.03em;
     line-height: 24px;
 }
 
 .third-word {
     color: var(--FFF);
-
 }
 
 .mail-tel1 {
@@ -445,8 +431,12 @@ ellipse:hover {
     letter-spacing: 0.02em;
     color: #FFFFFF99;
     text-decoration: none;
-    
+}
 
+.name-footer {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--FFF);
 }
 
 /*-----END------- footer  ------------------*/
@@ -458,10 +448,7 @@ ellipse:hover {
     margin: 0;
     width: 1600px;
     border: 1px solid #ECECEC;
-
 }
-
-
 
 .button-all {
     margin: 0;
@@ -509,6 +496,11 @@ ellipse:hover {
 .li-box {
     background: var(--FFF);
     border: 1px solid #EEEEEE;
+}
+
+.li-box:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 
 .description {
