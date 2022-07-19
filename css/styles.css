@@ -6,6 +6,7 @@
     --black: #212121;
     --button: #F5F4FA;
     --line: #ECECEC;
+    --icon-bg: #AFB1B8;
 }
 
 body {
@@ -54,9 +55,6 @@ figure {
     height: 220;
 }
 
-.icon {
-    fill: #AFB1B8;
-}
 
 .box-position {
     display: flex;
@@ -347,17 +345,19 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: #afb1b8;
 }
 
-.contacts-icon:hover, .icon-team:hover {
-    background: #2196F3;
+.contacts-icon:hover,
+.contacts-icon:focus,
+.contacts-icon:active, {
+    background-color:  var(--blue);
     fill: var(--FFF);
 }
+
 .icon-team {
     width: 20px;
     height: 20px;
-    cursor: pointer;
-    fill: #afb1b8;
 }
 
 /* < !-------------END-- Nasz zespół --> */
@@ -370,20 +370,20 @@ figure {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
-    cursor: pointer;
+    fill: var(--icon-bg);
 }
 
-.box-klients:hover {
-    background: var(--FFF);
-    fill: #2196F3;
-    
+.box-klients:hover, 
+.box-klients:focus {
+    fill: var(--blue);
+    border-color: var(--blue);
+    cursor: pointer;
 }
 
 .icon-klients {
     width: 106px;
     height: 60px;
 }
-
 
 /* < !-----END-------Nasi klienci --> */
 
@@ -400,7 +400,6 @@ figure {
 .display-foter {
     display: flex;
     align-items: center;
-    
 }
 
 .position-adres {
@@ -447,8 +446,8 @@ figure {
 }
 
 .social-box {
-    
     padding-left: 70px;
+    padding-bottom: 32px;
 } 
 
 .position-box-icon {
@@ -460,12 +459,20 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: ;
 }
 .position-box-icon:hover, .icon-social:hover{
     background: var(--blue);
     fill: var(--FFF);
+    
 }
 
+.icon-social-position {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
 .icon-social {
     width: 20px;
     height: 20px;
