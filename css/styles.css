@@ -387,11 +387,10 @@ figure {
     padding-bottom: 60px;
 }
 
-.display-foter {
+.display-footer {
     display: flex;
     align-items: center;
-    gap: 70px;
-    
+    gap: 70px; 
 }
 
 .position-adres {
