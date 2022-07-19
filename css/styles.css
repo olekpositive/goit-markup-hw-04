@@ -6,6 +6,7 @@
     --black: #212121;
     --button: #F5F4FA;
     --line: #ECECEC;
+    --icon: #AFB1B8;
 }
 
 body {
@@ -36,6 +37,7 @@ a:hover {
     color: var(--blue);
 }
 
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -52,10 +54,6 @@ figure {
     padding: 0;
     width: 270;
     height: 220;
-}
-
-.icon {
-    fill: #AFB1B8;
 }
 
 .box-position {
@@ -119,11 +117,11 @@ figure {
 
 .icon {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    /* width: 1em;
+    height: 1em; */
     stroke-width: 0;
     stroke: currentColor;
-    fill: currentColor;
+    fill: currentColor; 
 }
 
 .cancel {
@@ -207,12 +205,9 @@ figure {
 
 /* ---------------------- lerem ------------*/
 
-.article-section {
-    width: 1600px;
-    height: 919px;
+.margin-lorem {
+    padding-top: 94px;
 }
-
-
 .all-lorem {
     display: flex;
     align-items: center;
@@ -221,9 +216,6 @@ figure {
     padding: 0;
     margin: 0;
     
-}
-.margin-lorem {
-    padding: 0 0 94px 0;
 }
 
 .lorem-bg-icon {
@@ -235,11 +227,6 @@ figure {
     background: #F5F4FA;
     border-radius: 4px;
     
-}
-
-.icon-lorem {
-    width: 70px;
-    height: 70px;
 }
 
 .lorem-font {
@@ -337,27 +324,31 @@ figure {
     gap: 10px;
     padding: 0;
     margin: 0;
+    
 }
 
 .contacts-icon {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    
 }
 
-.contacts-icon:hover, .icon-team:hover {
-    background: #2196F3;
-    fill: var(--FFF);
-}
 .icon-team {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    fill: #afb1b8;
+    fill: var(--icon);
+}
+
+.contacts-icon:hover,
+.contacts-icon:focus  {
+    background-color: var(--blue);
+}
+
+.contacts-icon:hover .icon {
+    fill: var(--FFF);
 }
 
 /* < !-------------END-- Nasz zespół --> */
@@ -365,23 +356,22 @@ figure {
 /* < !-------------Nasi klienci --> */
 
 .box-klients {
-    width: 170px;
-    height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     cursor: pointer;
 }
 
+.box-klients:hover .icon {
+    fill: var(--blue);
+}
+
 .box-klients:hover {
-    background: var(--FFF);
-    fill: #2196F3;
-    
+    border: 1px solid #2196F3;
 }
 
 .icon-klients {
-    width: 106px;
-    height: 60px;
+    fill: var(--icon);
 }
 
 
@@ -400,6 +390,7 @@ figure {
 .display-foter {
     display: flex;
     align-items: center;
+    gap: 70px;
     
 }
 
@@ -440,37 +431,55 @@ figure {
     text-decoration: none;
 }
 
+.margin-social {
+    width: 206px;
+    height: 80px;
+   
+   
+}
+
 .name-footer {
     font-size: 14px;
     line-height: 16px;
     color: var(--FFF);
+    padding-bottom: 20px;
 }
 
-.social-box {
-    
-    padding-left: 70px;
-} 
 
-.position-box-icon {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
+.position-boxs-icon { 
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    position: relative;
+    padding: 0;
+    margin: 0; 
 }
-.position-box-icon:hover, .icon-social:hover{
+
+
+.position-boxs-icon-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.position-boxs-icon-item:hover {
     background: var(--blue);
-    fill: var(--FFF);
+    
 }
 
 .icon-social {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: var(--FFF);
 }
+
 
 
 /*-----END------- footer  ------------------*/
