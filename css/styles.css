@@ -204,10 +204,6 @@ figure {
 /* ---END-------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
 
 /* ---------------------- lerem ------------*/
-
-.margin-lorem {
-    padding-top: 94px;
-}
 .all-lorem {
     display: flex;
     align-items: center;
@@ -251,16 +247,9 @@ figure {
     padding: 10px 0 0 0;
 }
 
-
-
 /* ------END-------------- lerem ---------------- */
 
-
-
 /* < -- Czym się zajmujemy --> */
-
-
-
 
 .box-figure {
     width: 370px;
@@ -274,6 +263,7 @@ figure {
     line-height: 1.166em;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
 }
 
 /*----------END- Czym się zajmujemy --> */
@@ -323,8 +313,7 @@ figure {
     justify-content: center;
     gap: 10px;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 .contacts-icon {
@@ -335,7 +324,6 @@ figure {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    
 }
 
 .icon-team {
@@ -373,7 +361,6 @@ figure {
 .icon-klients {
     fill: var(--icon);
 }
-
 
 /* < !-----END-------Nasi klienci --> */
 
@@ -433,8 +420,7 @@ figure {
 .margin-social {
     width: 206px;
     height: 80px;
-   
-   
+    margin-bottom: 25px;
 }
 
 .name-footer {
@@ -465,7 +451,6 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .position-boxs-icon-item:hover {
@@ -479,10 +464,7 @@ figure {
     fill: var(--FFF);
 }
 
-
-
 /*-----END------- footer  ------------------*/
-
 
 /* Portfolio */
 
@@ -563,6 +545,5 @@ figure {
     padding: 4px 24px 20px 24px;
     margin: 0;
 }
-
 
 /* -------END---------Portfolio----------------- */
